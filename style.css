@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.abhi{
+    background-color: blueviolet;
+    color: cadetblue;
+    height: 200px;
+    width: 300px;
+    animation-name:abhi;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count:10;
+}
+
+@keyframes abhi{
+    10%{
+        transform: rotate(100deg);
+        background-color: bisque;
+    }
+    20%{
+        transform:translateX(1000px);
+        background-color:brown;
+    }
+    30%{
+        transform: rotate(200deg);
+        background-color:yellow;
+    }
+    40%{
+        transform: rotate(300deg);
+        background-color:violet;
+    }
+    50%{
+        transform: translateY(80%);
+        background-color:tomato;
+    }
+    70%{
+        transform: rotate(180deg);
+        background-color:teal;
+    }
+    90%{
+        transform:translateX(100px);
+        background-color:springgreen;
+    }
+    100%{
+        transform:scale(100deg);
+        background-color: bisque;
+    }
+}
